@@ -1,0 +1,13 @@
+# gitignore
+
+.env
+*.local*
+
+node_modules/
+
+bin/
+.out/
+out/
+dist/
+
+.vscode/

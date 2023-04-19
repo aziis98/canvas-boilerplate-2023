@@ -10,15 +10,15 @@ Run `npm run dev` to start the dev-server on port `:3000` and then just start mo
 ...
 
 function render({ graphics: g, width, height }) {
-	g.strokeStyle = "purple";
-	g.beginPath();
-	g.rect(10, 10, width - 20, height - 20);
-	g.stroke();
+    g.strokeStyle = "purple";
+    g.beginPath();
+    g.rect(10, 10, width - 20, height - 20);
+    g.stroke();
 
-	g.fillStyle = "purple";
-	g.beginPath();
-	g.circle(width / 2, height / 2, 10);
-	g.fill();
+    g.fillStyle = "purple";
+    g.beginPath();
+    g.circle(width / 2, height / 2, 10);
+    g.fill();
 }
 
 ...
